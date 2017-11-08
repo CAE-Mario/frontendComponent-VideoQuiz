@@ -61,7 +61,8 @@ var onContinueClicked = function(){
     window.currentQuestionId += 1;
   client.sendRequest("GET", "getQuiz/"+window.currentQuestionId, "", "", {}, false,
   function(data, type) {
-    console.log(data);
+     
+console.log(data);
   },
   function(error) {
     console.log(error);
