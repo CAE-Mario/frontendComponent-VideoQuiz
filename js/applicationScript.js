@@ -62,7 +62,7 @@ var onContinueClicked = function(){
   client.sendRequest("GET", "getQuiz/"+window.currentQuestionId, "", "", {}, false,
   function(data, type) {
     if(Object.keys(data).length > 0){
-	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
+	    $('#answerOption1').parent().contents().last()[0].textContent=data.answerA;
 	    $('#answerOption2').parent().contents().last()[0].textContent=data.answerB;
 	    $('#answerOption3').parent().contents().last()[0].textContent=data.answerC;
 	    $('#answerOption4').parent().contents().last()[0].textContent=data.answerD;
