@@ -68,13 +68,9 @@ var onContinueClicked = function(){
 	    $('#answerOption4').parent().contents().last()[0].textContent=data.answerD;
 	    $('#youtubeFrame').attr('src',data.videolink);
     	$("#questionText").text(data.question);
-
     }else{
- 
        $("# id of the question").text("Quiz completed thank you!");
- 
        $('label').hide();
-
        $('button').hide();
  
    }  
