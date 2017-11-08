@@ -59,7 +59,7 @@ var onContinueClicked = function(){
 
 //end variable declaration
     window.currentQuestionId += 1;
-  client.sendRequest("GET", "getQuiz/"+window.currentQuestionId, "", "", {}, false,
+  client.sendRequest("GET", "videoQuiz/getQuiz/"+window.currentQuestionId, "", "", {}, false,
   function(data, type) {
     if(Object.keys(data).length > 0){
 	    $('#answerOption1').parent().contents().last()[0].textContent=data.answerA;
