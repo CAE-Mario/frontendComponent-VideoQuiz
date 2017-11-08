@@ -63,7 +63,7 @@ var onContinueClicked = function(){
   function(data, type) {
     if(Object.keys(data).length > 0){
 	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
-	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
+	    $('#answerOption2').parent().contents().last()[0].textContent=data.answerB;
 	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
 	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
 	    $('# id of the video').attr('src',data.videolink);
