@@ -69,7 +69,7 @@ var onContinueClicked = function(){
 	    $('#youtubeFrame').attr('src',data.videolink);
     	$("#questionText").text(data.question);
     }else{
-       $("# id of the question").text("Quiz completed thank you!");
+       $("#questionText").text("Quiz completed thank you!");
        $('label').hide();
        $('button').hide();
  
