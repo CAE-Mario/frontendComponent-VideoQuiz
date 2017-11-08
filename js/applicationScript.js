@@ -67,7 +67,7 @@ var onContinueClicked = function(){
 	    $('#answerOption3').parent().contents().last()[0].textContent=data.answerC;
 	    $('#answerOption4').parent().contents().last()[0].textContent=data.answerD;
 	    $('#youtubeFrame').attr('src',data.videolink);
-    	    $("#questionText").text(data.question);
+    	$("#questionText").text(data.question);
 
     }else{
  
