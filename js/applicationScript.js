@@ -66,7 +66,7 @@ var onContinueClicked = function(){
 	    $('#answerOption2').parent().contents().last()[0].textContent=data.answerB;
 	    $('#answerOption3').parent().contents().last()[0].textContent=data.answerC;
 	    $('#answerOption4').parent().contents().last()[0].textContent=data.answerD;
-	    $('# id of the video').attr('src',data.videolink);
+	    $('#youtubeFrame').attr('src',data.videolink);
 	
     	    $("# id of the question").text(data.question);
 
