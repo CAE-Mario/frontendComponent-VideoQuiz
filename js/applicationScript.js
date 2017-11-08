@@ -72,7 +72,6 @@ var onContinueClicked = function(){
        $("#questionText").text("Quiz completed thank you!");
        $('label').hide();
        $('button').hide();
- 
    }  
    
   },
