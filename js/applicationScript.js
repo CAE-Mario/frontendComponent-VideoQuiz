@@ -59,7 +59,7 @@ var onContinueClicked = function(){
 
 //end variable declaration
     window.currentQuestionId += 1;
-  client.sendRequest("GET", "getQuiz/"+cu, "", "", {}, false,
+  client.sendRequest("GET", "getQuiz/"+window.currentQuestionId, "", "", {}, false,
   function(data, type) {
     console.log(data);
   },
