@@ -33,7 +33,7 @@
 var client;
 
 var init = function() {
-  window.
+  window.currentQuestionId = 
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
