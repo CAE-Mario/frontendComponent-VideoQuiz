@@ -58,7 +58,7 @@ var onContinueClicked = function(){
 //start variable declaration
 
 //end variable declaration
-    window.currentQuestionId 
+    window.currentQuestionId += 1;
   client.sendRequest("GET", getQuiz/, "", "", {}, false,
   function(data, type) {
     console.log(data);
